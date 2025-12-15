@@ -66,7 +66,7 @@ def embed_texts(texts: list[str]) -> list[list[float]]:
     return vectors
 
 # -------- Streamlit UI --------
-st.title("📚 RAG App (Streamlit + Pinecone + Gemini)")
+st.title("📚 RAG Application")
 
 uploaded_pdf = st.file_uploader("Upload a PDF", type=["pdf"])
 if uploaded_pdf:
